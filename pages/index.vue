@@ -2,7 +2,7 @@
   <section><h1 :class="$style.red">NUXT</h1></section>
 </template>
 
-<style module>
+<style lang="scss" module>
 .red {
   color: red;
 }

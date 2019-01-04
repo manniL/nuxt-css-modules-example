@@ -1,8 +1,8 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "nuxt-with-css-modules-and-sass",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
-  "author": "Atinux",
+  "description": "Nuxt + CSS Modules + SASS",
+  "author": "manniL",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,7 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "node-sass": "4.11.0",
     "nuxt": "^2.3.1",
-    "@nuxtjs/axios": "^5.0.0"
+    "sass-loader": "7.1.0"
   }
 }
